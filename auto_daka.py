@@ -25,7 +25,7 @@ def email(receivers, content):
     # 设置email信息
     # 邮件内容设置
     message = MIMEText(content, 'plain', 'utf-8')
-    # 邮件主题
+    # 邮件主题#这是我的邮件主题，你可以设置自己的
     message['Subject'] = 'JLUVicent打卡小助手汇报'
     # 发送方信息
     message['From'] = sender
